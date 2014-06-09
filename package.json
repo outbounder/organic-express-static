@@ -1,0 +1,23 @@
+{
+  "name": "organic-express-static",
+  "version": "0.0.0",
+  "description": "Organelle for mounting hash of pairs (mount point / relative local path) to be served as static resources.",
+  "main": "index.js",
+  "dependencies": {
+    "st": "~0.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/outbounder/organic-express-static.git"
+  },
+  "author": "Boris Filipov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/outbounder/organic-express-static/issues"
+  },
+  "homepage": "https://github.com/outbounder/organic-express-static"
+}
