@@ -1,4 +1,4 @@
-# organic-express-static
+# organic-express-static 0.0.1
 
 Organelle for mounting hash of pairs (mount point / relative local path) to be served as static resources.
 
@@ -10,7 +10,9 @@ Organelle for mounting hash of pairs (mount point / relative local path) to be s
       "mount": {
         "/url": "relative/path/to/cwd",
         "/url2": "relative/path/to/cwd2",
-      }
+      },
+      "st": {},
+      "log": false
     }
 
 ### `reactOn` property
@@ -28,3 +30,7 @@ A hash of `"mountPoint": "local/path"` pairs which will be passed as configurati
       "index": false,
       "cache": false
     }
+
+### `st` property
+
+[st module](https://github.com/isaacs/st) extended options.
