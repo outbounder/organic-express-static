@@ -1,10 +1,10 @@
 {
   "name": "organic-express-static",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Organelle for mounting hash of pairs (mount point / relative local path) to be served as static resources.",
   "main": "index.js",
   "dependencies": {
-    "st": "~0.4.1",
+    "st": "^0.5.2",
     "underscore": "~1.6.0"
   },
   "devDependencies": {},

@@ -9,7 +9,7 @@ Organelle for mounting hash of pairs (mount point / relative local path) to be s
       "reactOn": "ExpressServer",
       "mount": {
         "/url": "relative/path/to/cwd",
-        "/url2": "relative/path/to/cwd2",
+        "/url2": { "path": "relative/path/to/cwd2", ... }
       },
       "st": {},
       "log": false
@@ -33,4 +33,4 @@ A hash of `"mountPoint": "local/path"` pairs which will be passed as configurati
 
 ### `st` property
 
-[st module](https://github.com/isaacs/st) extended options.
+[st module](https://github.com/isaacs/st) extending default options.
